@@ -1,0 +1,23 @@
+.juego{
+    background-color: #3e2e60;
+    margin: 5%;
+    padding: 5%;
+    
+}
+
+.titulo{
+    font-family: 'Bungee Spice', cursive;
+    width: 100%;
+}
+.boton-cerrar-sesion{
+    float: right;
+}
+
+@media (max-width: 600px) {
+   .juego{
+    width: 100%;
+    margin: 0
+   }
+ 
+    
+}

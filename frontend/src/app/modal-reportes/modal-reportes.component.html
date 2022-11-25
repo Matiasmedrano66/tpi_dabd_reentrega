@@ -1,0 +1,26 @@
+<div class="modal" tabindex="-1" role="dialog" id="reportes">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-dark">
+            <h1>Reportes</h1>
+            
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p class="text-primary">Cantidad de Jugadores por fecha</p>
+            <app-grafico-barra></app-grafico-barra>
+            <br>
+            <p class="text-primary">índice de partidas ganadas por Croupier y Jugadores</p>
+            <app-grafico-cantidad-partidas-ganadas></app-grafico-cantidad-partidas-ganadas>
+            <br>
+            <p class="text-primary">Porcentaje BlackJack obtenidos por Croupier y Jugadores</p>
+            <app-grafico-partidas-puntaje-perfecto></app-grafico-partidas-puntaje-perfecto>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
